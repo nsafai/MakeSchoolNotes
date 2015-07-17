@@ -22,6 +22,8 @@
 		5BD3405B1B1884D600A6CDE9 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD340581B1884D600A6CDE9 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5BD3405C1B1884D600A6CDE9 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD340591B1884D600A6CDE9 /* RealmSwift.framework */; };
 		5BD3405D1B1884D600A6CDE9 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD340591B1884D600A6CDE9 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B1604BDA1B540C20006C926A /* NoteDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1604BD91B540C20006C926A /* NoteDisplayViewController.swift */; };
+		B1CDA4101B4DEB9000876FCD /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CDA40F1B4DEB9000876FCD /* NewNoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,8 @@
 		5BD3403A1B18819B00A6CDE9 /* ConvenienceKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ConvenienceKit.xcodeproj; path = External/ConvenienceKit/ConvenienceKit.xcodeproj; sourceTree = "<group>"; };
 		5BD340581B1884D600A6CDE9 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Realm.framework; sourceTree = "<group>"; };
 		5BD340591B1884D600A6CDE9 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../RealmSwift.framework; sourceTree = "<group>"; };
+		B1604BD91B540C20006C926A /* NoteDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDisplayViewController.swift; sourceTree = "<group>"; };
+		B1CDA40F1B4DEB9000876FCD /* NewNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				5B7FD42C1B189D2C0088C25E /* NotesViewController.swift */,
+				B1CDA40F1B4DEB9000876FCD /* NewNoteViewController.swift */,
+				B1604BD91B540C20006C926A /* NoteDisplayViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -368,6 +374,8 @@
 				5B7FD42F1B189D2C0088C25E /* NotesViewController.swift in Sources */,
 				5B7FD4351B18A1FC0088C25E /* NoteTableViewCell.swift in Sources */,
 				5B7FD4331B18A15D0088C25E /* Note.swift in Sources */,
+				B1604BDA1B540C20006C926A /* NoteDisplayViewController.swift in Sources */,
+				B1CDA4101B4DEB9000876FCD /* NewNoteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
